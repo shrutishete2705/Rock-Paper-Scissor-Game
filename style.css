@@ -1,0 +1,111 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#081b29;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#main{
+    border:2px solid rgb(37,149,174);
+    width:700px;
+    padding:25px;
+    border-radius:15px;
+    background-color:#0f0f0f;
+    box-shadow:0 0 20px rgba(37,149,174,0.6);
+}
+
+#title{
+    text-align:center;
+    padding:10px;
+    font-size:40px;
+    color:white;
+    text-shadow:2px 2px 8px rgb(37,149,174);
+}
+
+
+.results{
+    width:300px;
+    margin:20px auto;
+    padding:20px;
+    background-color:#010000;
+    border-radius:20px;
+    text-align:center;
+    font-size:20px;
+    line-height:1.8;
+    border-top:2px solid rgb(200,144,165);
+    border-bottom:2px solid rgb(200,144,165);
+    box-shadow:0 0 15px rgba(37,149,174,0.6);
+}
+
+
+#userchoice,
+#comchoice,
+#result{
+    color:yellow;
+    font-size:20px;
+    text-shadow:0 0 10px yellow;
+}
+
+.options{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    margin-top:20px;
+}
+
+.options img{
+    width:150px;
+    height:150px;
+    border-radius:25px;
+    cursor:pointer;
+    box-shadow:0 0 15px rgba(110,203,205,0.6);
+    border-top:2px solid rgb(200,144,165);
+    border-bottom:2px solid rgb(200,144,165);
+    transition:0.3s;
+}
+
+
+.options img:hover{
+    transform:scale(1.07);
+}
+#score{
+    margin:25px auto;
+    text-align:center;
+    width:230px;
+    padding:15px;
+    border-radius:20px;
+    line-height:1.8;
+    background-color:black;
+    border-top:2px solid rgb(200,144,165);
+    border-bottom:2px solid rgb(200,144,165);
+    box-shadow:0 0 15px rgba(37,149,174,0.6);
+}
+
+button{
+    width:90px;
+    height:35px;
+    border-radius:15px;
+    display:block;
+    margin:20px auto;
+    background-color:rgb(4,4,4);
+    color:white;
+    border-top:2px solid rgb(200,144,165);
+    border-bottom:2px solid rgb(200,144,165);
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 10px rgb(200,144,165);
+}

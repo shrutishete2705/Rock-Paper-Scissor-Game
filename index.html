@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock paper scissor game</title>
+     <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+    <h1 id="title">Rock paper Scissors</h1>
+
+    <div class="results">
+        <p id="userchoice">Your choice:</p>
+        <p id="comchoice">Computer's choice:</p>
+        <p id="result">Result:</p>
+    </div>
+<div>
+    <div class="options">
+    <img src="https://thumb.silhouette-ac.com/t/69/69ffced83032519ca680dc3058b9ca26_t.jpeg" onclick="opt1('Rock')" height="200px" width="200px">
+    <img src="https://thumb.silhouette-ac.com/t/26/2654adfd65b6ca4a8ac25a9f727d2262_t.jpeg" height="200px" onclick="opt1('Paper')" width="200px">
+    <img src="https://thumb.silhouette-ac.com/t/a7/a7c3020b4cfb4fd154c4fcfd62702df2_t.jpeg" height="200px" onclick="opt1('Scissors')" width="200px">
+</div>
+
+<div id="score">
+    <h2>Scoreboard</h2>
+    <h3 id="userscore">Your Score:</h3>
+     <h3 id="comscore">Computer's Score:</h3>
+     <h3 id="Round">Rounds 10</h3>
+</div>
+<button onclick="restartGame()">Restart</button>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
