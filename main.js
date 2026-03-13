@@ -54,13 +54,15 @@ console.log("scorecom:"+countcom);
 
 if(round === 10){
 
-        if(userscore > comscore){
-            alert("🎉 You won the game!");
-        }
-
-        else {
-            alert("💻 Computer won the game!");
-        }
+    if(count > countcom){
+    alert("🎉 You won the game!");
+}
+else if(count < countcom){
+    alert("💻 Computer won the game!");
+}
+else{
+    alert("🤝 Game Draw!");
+}
 
     }
 }
